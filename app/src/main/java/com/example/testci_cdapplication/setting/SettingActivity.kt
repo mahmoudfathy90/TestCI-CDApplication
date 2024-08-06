@@ -24,7 +24,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Setting(git )
+                    Setting(
+
+
+                    )
                 }
             }
         }
@@ -32,7 +35,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Setting(modifier: Modifier = Modifier) {
+fun Setting( modifier: Modifier = Modifier) {
     Row {
         Text(
             text = "hello setting screen ",
