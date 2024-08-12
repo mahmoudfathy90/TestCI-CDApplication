@@ -27,6 +27,11 @@ class MainActivity : ComponentActivity() {
                     Setting(
 
 
+
+
+
+
+
                     )
                 }
             }
