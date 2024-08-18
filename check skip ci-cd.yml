@@ -1,0 +1,15 @@
+name: Test Skip ci
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test_skip_ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event details
+        run: echo "${{ toJSON(github.event) }}"
+
+
+

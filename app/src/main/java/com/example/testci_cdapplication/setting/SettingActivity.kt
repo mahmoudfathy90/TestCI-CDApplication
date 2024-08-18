@@ -24,21 +24,14 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Setting(
-
-
-
-
-
-
-
-                    )
+                    Setting()
                 }
             }
         }
     }
 }
 
+// comments
 @Composable
 fun Setting( modifier: Modifier = Modifier) {
     Row {
