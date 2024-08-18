@@ -1,4 +1,4 @@
-name: Check event types
+name: Check event Filter
 on:
   push:
     branches:
