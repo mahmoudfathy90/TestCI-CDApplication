@@ -1,0 +1,17 @@
+name: Check event types
+on:
+  push:
+    branches:
+      - main
+      - master
+      - task-*
+
+jobs:
+  test_branch_filter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event details
+        run: echo "${{ toJSON(github.event) }}"
+
+
+
