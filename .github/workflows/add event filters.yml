@@ -5,6 +5,8 @@ on:
       - main
       - master
       - task-*
+    paths-ignore:
+      - '.github/workflows/*'
 
 jobs:
   test_branch_filter:
