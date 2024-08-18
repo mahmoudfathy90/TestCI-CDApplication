@@ -2,7 +2,7 @@ name: Test Skip ci
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test_skip_ci:
