@@ -32,6 +32,8 @@ class MainActivity : ComponentActivity() {
 }
 
 // comments
+
+// add some comments
 @Composable
 fun Setting( modifier: Modifier = Modifier) {
     Row {
